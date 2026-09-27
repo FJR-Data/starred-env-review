@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "2akouwu/reverify",
+    "url": "https://github.com/2akouwu/reverify",
+    "nota_tier": "tier 1 (4.65)",
+    "veredito": "descartado",
+    "motivo": "Descartado — fora do escopo de interesse atual (verificação de claims de engenharia reversa de binários).",
+    "descricao": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI."
+  },
+  {
+    "nome": "disler/super-simple-software-factory",
+    "url": "https://github.com/disler/super-simple-software-factory",
+    "nota_tier": "tier 2 (3.65)",
+    "veredito": "descartado",
+    "motivo": "Pontuado e depois avaliado de novo — descartado por já existir cobertura equivalente na automação em uso.",
+    "descricao": "Workflows agente+código determinístico empacotados como skill"
+  },
+  {
+    "nome": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack",
+    "nota_tier": "-",
+    "veredito": "descartado",
+    "motivo": "Instalado e testado, depois removido por completo — não se sustentou frente ao framework de skills já adotado.",
+    "descricao": "23 ferramentas opinativas do setup Claude Code do Garry Tan"
+  },
+  {
+    "nome": "NevaMind-AI/memU",
+    "url": "https://github.com/NevaMind-AI/memU",
+    "nota_tier": "-",
+    "veredito": "descartado",
+    "motivo": "Foi a camada de memória de um sistema multiagente que depois foi arquivado por inteiro; nada relacionado segue em uso.",
+    "descricao": "Camada de memória pessoal compartilhada entre agentes"
+  },
+  {
+    "nome": "node9-ai/node9-proxy",
+    "url": "https://github.com/node9-ai/node9-proxy",
+    "nota_tier": "-",
+    "veredito": "descartado",
+    "motivo": "Reprovado em revisão de segurança — funções internas do próprio pacote enviam dados de uso para fora sem necessidade aparente.",
+    "descricao": "Camada de governança/auditoria \"sudo\" para agentes autônomos"
+  },
+  {
+    "nome": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "nota_tier": "-",
+    "veredito": "adotado",
+    "motivo": "Adotado — base de um agente local em produção, usado como gateway para um LLM self-hosted.",
+    "descricao": "Agente self-improving Python; usado como base de um gateway LLM local"
+  },
+  {
+    "nome": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "nota_tier": "-",
+    "veredito": "adotado",
+    "motivo": "Adotado — framework de disciplina/skills usado ativamente como metodologia de desenvolvimento.",
+    "descricao": "Framework de skills agênticas + metodologia de desenvolvimento"
+  },
+  {
+    "nome": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "nota_tier": "-",
+    "veredito": "descartado",
+    "motivo": "Rodou brevemente como assistente/gateway e foi descontinuado, substituído por outra abordagem.",
+    "descricao": "Assistente pessoal de IA multiplataforma (\"the lobster way\")"
+  },
+  {
+    "nome": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "nota_tier": "-",
+    "veredito": "descartado",
+    "motivo": "Avaliado formalmente contra a stack em uso — decisão de não migrar (stack incompatível); alguns padrões de design foram reaproveitados, o produto não.",
+    "descricao": "Orquestrador de agentes \"zero-human companies\", Node+Postgres"
+  },
+  {
+    "nome": "punkpeye/awesome-mcp-servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "nota_tier": "tier 1 (4.65)",
+    "veredito": "descartado",
+    "motivo": "Descartado — é uma lista curada (awesome-list), não uma ferramenta executável; já existe um catálogo equivalente em uso.",
+    "descricao": "A collection of MCP servers."
+  },
+  {
+    "nome": "zilliztech/claude-context",
+    "url": "https://github.com/zilliztech/claude-context",
+    "nota_tier": "tier 1 (4.3)",
+    "veredito": "descartado",
+    "motivo": "Descartado — sobreporia um caso de uso de busca semântica em código já coberto de outra forma.",
+    "descricao": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
+  }
+]
